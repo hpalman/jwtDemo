@@ -1,5 +1,6 @@
 JWT Authentication, Spring Security 6 and Spring Boot 3 and with Simple Project. | by Lakshitha Fernando | Medium
 https://medium.com/@Lakshitha_Fernando/jwt-spring-security-6-and-spring-boot-3-with-simple-project-819d84e09af2
+    또다른 참고) https://medium.com/@tericcabrel/implement-jwt-authentication-in-a-spring-boot-3-application-5839e4fd8fac
 
 https://bcrypt-generator.com/
 
