@@ -1,0 +1,19 @@
+JWT Authentication, Spring Security 6 and Spring Boot 3 and with Simple Project. | by Lakshitha Fernando | Medium
+https://medium.com/@Lakshitha_Fernando/jwt-spring-security-6-and-spring-boot-3-with-simple-project-819d84e09af2
+
+https://bcrypt-generator.com/
+
+insert into roles(id,name) values(1,'ROLE_ADMIN');
+insert into roles(id,name) values(2,'ROLE_USER');
+
+insert into users(id,email,name,password,username) values(1, 'hpalman@gmail.com', '허팔만', '$2a$12$8YqADbxG3kKeEAbFFmSvfOAiU6lSRWdROrkvMyGS8WBP4YB/oNYre' /* 1 */ , 'hpalman');
+insert into users(id,email,name,password,username) values(2, 'john@gmail.com'   , '존'    , '$2a$12$EHWX3vz8.oEv.f6kk2VdG.JFWHEupoorDyC6AfR05EkeYR3R1DVJy' /* 1 */ , 'john'   );
+
+insert into users_roles(user_id,role_id) values(1,1);
+insert into users_roles(user_id,role_id) values(2,2);
+
+POST> http://localhost:8080/api/auth/login
+{
+  "username": "hpalman",
+  "password": "1"
+}
